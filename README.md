@@ -58,7 +58,8 @@ Game Mechanics:
 If you don't like the music, or it irritates you, or it's too loud, just go to main.js line 164 (This might change!) and set the volume to 0.
 
 Let's see who can tell me what the bosses abilities are!
-If you want to, you can give me the answer on discord to _alexei2
+If you want to, you can give me the answer on discord to _alexei2 or say it right here in the discussions!
+Also, while you're there. Do you think i should make a Discord server for the game?
 
 Have fun playing!
 
