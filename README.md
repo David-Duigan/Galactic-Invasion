@@ -61,6 +61,8 @@ Let's see who can tell me what the bosses abilities are!
 If you want to, you can give me the answer on discord to _alexei2 or say it right here in the discussions!
 Also, while you're there. Do you think i should make a Discord server for the game?
 
+If you like this project so far, please consider giving it a star :)!
+
 Have fun playing!
 
 
