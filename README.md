@@ -1,4 +1,4 @@
-# Super-Space-Invaders-
+# Galactic Invasion
 Made with Javascript.
 
 This project is still under development, but here is how it is so far!
