@@ -1,0 +1,1 @@
+Launches some boomerang lasers.

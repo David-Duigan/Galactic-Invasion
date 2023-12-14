@@ -1,0 +1,1 @@
+shoots a bullet forward, that explodes in a firework

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="style.css"/>
+    <!-- <link rel="Shortcut Icon" type="image/ico" href="assets/icon.ico"/> -->
+
+
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+
+    <!-- Spaceships Body Image Import -->
+
+    <img id="purpleBody" src="assets/spaceship/body/purple.png">
+    <img id="greenBody" src="assets/spaceship/body/green.png">
+    <img id="yellowBody" src="assets/spaceship/body/yellow.png">
+
+    <!-- Spaceships Weapons Image Import -->
+
+    <img id="greenWeapon" src="assets/spaceship/weapons/normalWeapon/green.png">
+    <img id="purpleWeapon" src="assets/spaceship/weapons/normalWeapon/purple.png">
+    <img id="yellowWeapon" src="assets/spaceship/weapons/normalWeapon/yellow.png">
+
+    <img id="greenTurboWeapon" src="assets/spaceship/weapons/turboWeapon/green.png">
+    <img id="purpleTurboWeapon" src="assets/spaceship/weapons/turboWeapon/purple.png">
+    <img id="yellowTurboWeapon" src="assets/spaceship/weapons/turboWeapon/yellow.png">
+
+    <!-- Enemy NormalFliers Image Import -->
+
+    <img id="blueEnemy" src="assets/enemies/normalFliers/blue/normal.png">
+    <img id="greenEnemy" src="assets/enemies/normalFliers/green/normal.png">
+    <img id="pinkEnemy" src="assets/enemies/normalFliers/pink/normal.png">
+    <img id="purpleEnemy" src="assets/enemies/normalFliers/purple/normal.png">
+    <img id="yellowEnemy" src="assets/enemies/normalFliers/yellow/normal.png">
+
+    <img id="blueEnemyTurbo" src="assets/enemies/normalFliers/blue/turbo.png">
+    <img id="greenEnemyTurbo" src="assets/enemies/normalFliers/green/turbo.png">
+    <img id="pinkEnemyTurbo" src="assets/enemies/normalFliers/pink/turbo.png">
+    <img id="purpleEnemyTurbo" src="assets/enemies/normalFliers/purple/turbo.png">
+    <img id="yellowEnemyTurbo" src="assets/enemies/normalFliers/yellow/turbo.png">
+
+    <!-- Enemy Bosses Image Import -->
+
+    <img id="blueBoss" src="assets/enemies/bosses/blue.png">
+    <img id="greenBoss" src="assets/enemies/bosses/green.png">
+    <img id="pinkBoss" src="assets/enemies/bosses/pink.png">
+    <img id="yellowBoss" src="assets/enemies/bosses/yellow.png">
+
+    <!-- Items Image Import -->
+
+    <img id="shield" src="assets/items/shield.png">
+    <img id="bluePowerup" src="assets/items/bluePowerup.png">
+    <img id="greenPowerup" src="assets/items/greenPowerup.png">
+    <img id="pinkPowerup" src="assets/items/pinkPowerup.png">
+    <img id="shieldPowerup" src="assets/items/shieldPowerup.png">
+
+    <!-- Spaceship Bullets Image Import -->
+
+    <img id="blueBullet" src="assets/bullets/spaceshipBullets/blueBullet.png">
+    <img id="greenBullet" src="assets/bullets/spaceshipBullets/greenBullet.png">
+    <img id="purpleBullet" src="assets/bullets/spaceshipBullets/purpleBullet.png">
+
+    <!-- NormalEnemy Bullets Image Import -->
+
+    <img id="blueEnemyBullet" src="assets/bullets/enemyBullets/normalEnemies/blue/normalBullet.png">
+    <img id="greenEnemyBullet" src="assets/bullets/enemyBullets/normalEnemies/green/normalBullet.png">
+    <img id="pinkEnemyBullet" src="assets/bullets/enemyBullets/normalEnemies/pink/normalBullet.png">
+    <img id="purpleEnemyBullet" src="assets/bullets/enemyBullets/normalEnemies/purple/normalBullet.png">
+    <img id="yellowEnemyBullet" src="assets/bullets/enemyBullets/normalEnemies/yellow/normalBullet.png">
+
+    <img id="blueEnemyTurboBullet" src="assets/bullets/enemyBullets/normalEnemies/blue/turboBullet.png">
+    <img id="greenEnemyTurboBullet" src="assets/bullets/enemyBullets/normalEnemies/green/turboBullet.png">
+    <img id="pinkEnemyTurboBullet" src="assets/bullets/enemyBullets/normalEnemies/pink/turboBullet.png">
+    <img id="purpleEnemyTurboBullet" src="assets/bullets/enemyBullets/normalEnemies/purple/turboBullet.png">
+    <img id="yellowEnemyTurboBullet" src="assets/bullets/enemyBullets/normalEnemies/yellow/turboBullet.png">
+
+    <!-- Bosses Bullets Image Import -->
+
+    <img id="blueBossBullet" src="assets/bullets/enemyBullets/bosses/blue/normalBullet.png">
+    <img id="greenBossBullet" src="assets/bullets/enemyBullets/bosses/green/normalBullet.png">
+    <img id="pinkBossBullet" src="assets/bullets/enemyBullets/bosses/pink/normalBullet.png">
+    <img id="yellowBossBullet" src="assets/bullets/enemyBullets/bosses/yellow/normalBullet.png">
+
+    <img id="blueBossTurboBullet" src="assets/bullets/enemyBullets/bosses/blue/turboBullet.png">
+    <img id="greenBossTurboBullet" src="assets/bullets/enemyBullets/bosses/green/turboBullet.png">
+    <img id="pinkBossTurboBullet" src="assets/bullets/enemyBullets/bosses/pink/turboBullet.png">
+    <img id="yellowBossTurboBullet" src="assets/bullets/enemyBullets/bosses/yellow/turboBullet.png">
+
+    <!-- Parallax Background Image Import -->
+
+    <img id="bgLayer1" src="assets/background/layer1.png">
+    <img id="bgLayer2" src="assets/background/layer2.png">
+    <img id="bgLayer3" src="assets/background/layer3.png">
+    <img id="bgLayer4" src="assets/background/layer4.png">
+    <img id="bgLayer5" src="assets/background/layer5.png">
+    <img id="bgLayer6" src="assets/background/layer6.png">
+
+    <!-- Explosions and other Animations Image Import -->
+
+    <img id="explosion1" src="assets/explosions/explosion1.svg">
+    <img id="explosion2" src="assets/explosions/explosion2.svg">
+    <img id="explosion3" src="assets/explosions/explosion3.svg">
+    <img id="teleport1" src="assets/explosions/teleport1.png">
+
+    <!-- Random Items Image Import -->
+
+    <img id="heart" src="assets/items/heart.png">
+
+
+    <h1 id="loading">LOADING...</h1>
+
+    <script src="main.js" type="module"></script>
+
+
+</body>
+</html>
