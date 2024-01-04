@@ -59,7 +59,6 @@ If you don't like the music, or it irritates you, or it's too loud, just go to m
 
 Let's see who can tell me what the bosses abilities are!
 If you want to, you can give me the answer in the discussions! (https://github.com/David-Duigan/Galactic-Invasion/discussions/1)
-Also, while you're there, Do you think i should make a Discord server for the game?
 
 If any bugs are found, please report them to me in the discussion. (https://github.com/David-Duigan/Galactic-Invasion/discussions/2)
 Also, any ideas are very welcome!
