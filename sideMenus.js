@@ -14,14 +14,14 @@ export class LeftSideMenu extends SideMenu {
     constructor(game){
         super(game);
         this.x = 0;
-        this.width = (this.game.width - this.game.height)/2;
+        this.width = (this.game.width - this.game.background.width)/2;
     }
 }
 
 export class RightSideMenu extends SideMenu {
     constructor(game){
         super(game);
-        this.width = (this.game.width - this.game.height)/2;
+        this.width = (this.game.width - this.game.background.width)/2;
         this.x = this.game.width - this.width;
     }
 }
